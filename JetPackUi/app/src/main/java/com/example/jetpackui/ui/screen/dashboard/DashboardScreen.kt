@@ -8,7 +8,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import com.example.jetpackui.R
-import com.example.jetpackui.ui.common.customComposableView.TitleText
 
 @Composable
 fun DashboardScreen() {
@@ -17,6 +16,6 @@ fun DashboardScreen() {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        TitleText(text = stringResource(id = R.string.dashboard_title_welcome_user))
+
     }
 }
